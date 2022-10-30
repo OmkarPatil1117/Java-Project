@@ -76,6 +76,10 @@ span {
 .time {
     font-size: 2rem;
 }
+.timed {
+    background-color: rgb(194, 133, 194);
+    padding: 0.6rem;
+}
 @media screen and (max-width: 480px)  {
     .container {
         display: block;
@@ -84,7 +88,7 @@ span {
         display: none;
     }
     .time {
-    font-size: 1.5rem;
+    display: none;
     }
     span {
     font-size: 1rem;
