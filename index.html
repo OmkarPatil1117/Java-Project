@@ -14,27 +14,39 @@
             <div class="selecter">
                 <br> <br>
                 <label>Set wake up time</label>
-                <select name="" id="timing">
-                    <option value="1">10 AM - 11AM</option>
+                <select name="" id="timingMorning">
+                    <option value="1">08 AM - 09AM</option>
+                    <option value="2">09 AM - 10AM</option>
+                    <option value="3">10 AM - 11AM</option>
+                    <option value="4">11 AM - 12AM</option>
                 </select> <br> <br> <br>
                 <label>Set lunch time</label>
-                <select name="" id="timing">
+                <select name="" id="afternoontiming">
                     <option value="1">12 PM - 01 PM</option>
+                    <option value="2">01 PM - 02 PM</option>
+                    <option value="3">02 PM - 03 PM</option>
+                    <option value="4">03 PM - 04 PM</option>
                 </select> <br> <br> <br>
                 <label>Set nap time</label>
-                <select name="" id="timing">
-                    <option value="1">4 PM - 5 PM</option>
+                <select name="" id="evening">
+                    <option value="1">4 PM - 05 PM</option>
+                    <option value="2">5 PM - 06 PM</option>
+                    <option value="3">06 PM -07 PM</option>
+                    <option value="4">07 PM -08 PM</option>
                 </select> <br> <br> <br>
                 <label>Set night time</label>
-                <select name="" id="timing">
-                    <option value="1">04 PM - 5PM</option>
+                <select name="" id="night">
+                    <option value="1">08 PM -09 PM</option>
+                    <option value="2">09 PM -10 PM</option>
+                    <option value="3">10 PM -11 PM</option>
+                    <option value="4">11 PM -12 PM</option>
                 </select> <br> <br> <br>
             </div>
             <div class="text-dashboard">
                 <h1 id="morning">GOOD MORNING!! WAKE UP !!</h1>
             </div>
             <div class="submitContent">
-                <button>Set Alarm</button>
+                <button onclick="setalarm()">Set Alarm</button>
                 <div class="content">
                     Wake Up Time : 10 AM - 11 AM <br>
                     lunch time : 12PM - 01 PM <br>

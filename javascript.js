@@ -40,6 +40,23 @@ setInterval(() => {
     document.getElementById("minus").innerHTML = a.getMinutes();
 }, 1000);
 
+var setalarm = ()=> {
+    var m = document.getElementById("timingMorning").value;
+    localStorage.setItem("morning", m );
+
+    var lauch = document.getElementById("afternoontiming").value;
+    localStorage.setItem("afternoon", lauch );
+
+    var evening = document.getElementById("evening").value;
+    localStorage.setItem("evening", evening );
+    
+    var night = document.getElementById("night").value;
+    localStorage.setItem("night", night );
+}
+document.getElementById("timingMorning").value = localStorage.getItem("morning");
+document.getElementById("afternoontiming").value = localStorage.getItem("afternoon");
+document.getElementById("evening").value = localStorage.getItem("evening");
+document.getElementById("night").value = localStorage.getItem("night");
 
 
 
