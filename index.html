@@ -15,13 +15,15 @@
                 <br> <br>
                 <label>Set wake up time</label>
                 <select name="" id="timingMorning">
-                    <option value="1">08 AM - 09AM</option>
+                    <option value="0">Please enter timing</option>
+                    <option value="1" id="demo">08 AM - 09AM</option>
                     <option value="2">09 AM - 10AM</option>
                     <option value="3">10 AM - 11AM</option>
                     <option value="4">11 AM - 12AM</option>
                 </select> <br> <br> <br>
                 <label>Set lunch time</label>
                 <select name="" id="afternoontiming">
+                    <option value="0">Please enter timing</option>
                     <option value="1">12 PM - 01 PM</option>
                     <option value="2">01 PM - 02 PM</option>
                     <option value="3">02 PM - 03 PM</option>
@@ -29,6 +31,7 @@
                 </select> <br> <br> <br>
                 <label>Set nap time</label>
                 <select name="" id="evening">
+                    <option value="0">Please enter timing</option>
                     <option value="1">4 PM - 05 PM</option>
                     <option value="2">5 PM - 06 PM</option>
                     <option value="3">06 PM -07 PM</option>
@@ -36,6 +39,7 @@
                 </select> <br> <br> <br>
                 <label>Set night time</label>
                 <select name="" id="night">
+                    <option value="0">Please enter timing</option>
                     <option value="1">08 PM -09 PM</option>
                     <option value="2">09 PM -10 PM</option>
                     <option value="3">10 PM -11 PM</option>
@@ -48,19 +52,19 @@
             <div class="submitContent">
                 <button onclick="setalarm()">Set Alarm</button>
                 <div class="content">
-                    Wake Up Time : 10 AM - 11 AM <br>
-                    lunch time : 12PM - 01 PM <br>
-                    Nap time : 04 PM - 5 PM <br>
-                    Night time : 04 PM - 5 PM <br>
+                    Wake Up Time : <span id="demo1"></span> <br>
+                    lunch time : <span id="demo2"></span> <br>
+                    Nap time : <span id="demo3"></span> <br>
+                    Night time : <span id="demo4"></span><br>
                 </div>
             </div>
         </aside>
         <section>
             <div class="timer">
                 <div class="time">Time</div>
-                <div class="timed"> <span id="hour">10</span>  <br> hours</div> :
-                <div class="timed"> <span id="minus">00</span>  <br> minus</div> :
-                <div class="timed"><span id="sec" >01</span>  <br> secs</div> :
+                <div class="timed"> <span id="hour"></span>  <br> hours</div> :
+                <div class="timed"> <span id="minus"></span>  <br> minus</div> :
+                <div class="timed"><span id="sec" ></span>  <br> secs</div> :
                 <div class="timed" style="background-color:purple;"><span>AM</span> </div>
             </div>
             <div class="message">
