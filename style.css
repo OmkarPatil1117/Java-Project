@@ -99,5 +99,9 @@ span {
   .timed {
     margin: 0px;
     font-size: 0.6rem;
+    padding: 0.4rem;
+  }
+  #am {
+    font-size: 0.6rem;
   }
 }
