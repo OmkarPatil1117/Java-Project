@@ -57,6 +57,9 @@ button:hover {
     padding: 0.5rem;
     color: rgb(255, 1, 255);
 }
+.text {
+    font-size: medium;
+}
 .timer {
     display: flex;
     justify-content: space-between;
