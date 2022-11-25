@@ -1,6 +1,10 @@
 var date = new Date();
 var hour = date.getHours();
 
+if(hour > 12) {
+    document.getElementById("am").innerHTML = "PM"
+}
+
 if(hour >= 10) {
     document.querySelector("#banner").style.backgroundImage = "url(./img/window (2).png)";
     document.getElementById("dash").innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!"; 
@@ -125,6 +129,8 @@ if(localStorage.getItem("morning") == null) {
     document.getElementById("evening").value = 0;
     document.getElementById("night").value = 0;
 }
+
+
 
 
 
