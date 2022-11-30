@@ -104,4 +104,7 @@ span {
   #am {
     font-size: 0.6rem;
   }
+  .pic {
+    display: none;
+  }
 }
