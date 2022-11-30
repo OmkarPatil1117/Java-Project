@@ -1,5 +1,5 @@
 document.querySelector("#timingMorning").addEventListener('change', ()=> {
-    document.getElementById("banner").style.backgroundImage = "url(./img/windowCopy.png)"
+    document.getElementById("banner").style.backgroundImage = "url(./img/window (2).png)"
     let value = document.querySelector("#timingMorning").value;
     localStorage.setItem("morning", value)
     if(value == 1 ) {
