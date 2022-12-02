@@ -83,6 +83,11 @@ span {
     background-color: rgb(194, 133, 194);
     padding: 0.6rem;
 }
+#border {
+    border-left: 4px solid pink;
+    height: 3rem;
+    margin-left: 1.5rem;
+}
 @media screen and (max-width: 480px)  {
     .container {
         display: block;
@@ -105,6 +110,9 @@ span {
     font-size: 0.6rem;
   }
   .pic {
+    display: none;
+  }
+  #border {
     display: none;
   }
 }
